@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="20201651psb.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://webfontworld.github.io/NexonMaplestory/NexonMaplestory.css" rel="stylesheet">
+    <title>성격 별 여행 선호 사이트</title>
+</head>
+<body>
+    <div id="background">
+        <div id="survey">
+            <div class="survey-background"></div>
+            <h1>MBTI Travel</h1>
+            <div class="border"></div>
+
+        <div class="page_1">
+            <div class="question">
+            <span id= "q1"> 1. 어딘가 놀러 나간다면 나는</span>
+            <div class="button-group">
+                <span><button type="button" value="1" id="space" class="rd1">혼자 간다</button></span>
+                <span><button type="button" value="2" id="space" class="rd2">함께 간다.</button></span>
+            </div>
+            </div>
+
+            <div class="border"></div>
+
+            <div class="question">
+            <span id= "q2"> 2. 처음보는 사람과 만난다면? </span>
+            <div class="button-group">
+                <span><button type="button" value="3" id="space" class="rd3">매우 어색하다.</button></span>
+                <span><button type="button" value="4" id="space" class="rd4">쉽게 대화한다.</button></span>
+            </div>
+            </div>
+
+
+            <div class="border"></div>
+
+            <div class="question">
+            <span id= "q3"> 3. 처음 보는 공간에서 사람들이 많다면 나는</span>
+            <div class="button-group">
+                <span><button type="button" value="5" id="space" class="rd5">집 가고 싶다.</button></span>
+                <span><button type="button" value="6" id="space" class="rd6">싫더라도 그 곳을 즐긴다.</button></span>
+            </div>
+            </div>
+
+            <div class="border"></div>
+
+            <div class="question">
+            <span id= "q4"> 4. 사고 싶은 물건이 보일 때</span>
+            <div class="button-group">
+                <span><button type="button" value="7" id="space" class="rd7">일단 막 사간다.</button></span>
+                <span><button type="button" value="8" id="space" class="rd8">재정을 생각하며 신중해진다.</button></span>
+            </div>
+            </div>
+
+            <div class="border"></div>
+
+            <div class="question">
+            <span id= "q5"> 5. 투자할 곳이 생긴다면?</span>
+            <div class="button-group">
+                <span><button type="button" value="9" id="space" class="rd9">주식이나 코인 등을 한다.</button></span>
+                <span><button type="button" value="10" id="space" class="rd10">적금, 저금을 한다.</button></span>
+            </div>
+            </div>
+
+            <div class="border"></div>
+
+            <div class="move_btn">
+                <button type="button" id ="next_page" onclick="js:next_page2()">next</button>
+            </div>
+        </div>
+
+        <div class="page_2">
+            <div class="question2">
+                <span id= "q6"> 6. 무언가 일을 할 때에 나는</span>
+                <div class="button-group">
+                    <span><button type="button" value="11" id="space" class="rd11">생각나는 그 즉시 수행한다 차례 따윈 없다.</button></span>
+                    <span><button type="button" value="12" id="space" class="rd12">계획을 하나씩 세워서 차례대로 진행한다.</button></span>
+                </div>
+                <div class="border"></div>
+            </div>
+
+            <div class="question2">
+                <span id= "q7"> 7. 나에게 보답하는 사람이 있을 때 당신의 생각은?</span>
+                <div class="button-group">
+                    <span><button type="button" value="13" id="space" class="rd13">날 까먹지 않았구나 고마운 사람이네</button></span>
+                    <span><button type="button" value="14" id="space" class="rd14">뜬금없이 나한테 왜 보답하는거지?</button></span>
+                </div>
+                <div class="border"></div>
+            </div>
+
+            <div class="question2">
+                <span id= "q8"> 8. 다음 중 같이 일 할 사람을 고른다면?</span>
+                <div class="button-group">
+                    <span><button type="button" value="15" id="space" class="rd15">성격 좋고 모든면에서 성실하지만 일처리가 별로인 사람</button></span>
+                    <span><button type="button" value="16" id="space" class="rd16">괴팍하고 게으르지만 일처리 하나는 빠른 사람</button></span>
+                </div>
+                <div class="border"></div>
+            </div>
+
+            <div class="question2">
+                <span id= "q9"> 9. 잘지내다 연락이 갑자기 끊긴 상대에 대한 반응은? </span>
+                <div class="button-group">
+                    <span><button type="button" value="17" id="space" class="rd17">바로 연락해서 안부를 물어본다.</button></span>
+                    <span><button type="button" value="18" id="space" class="rd18">각자의 사생활이 있기 때문에 일단 기다려본다.</button></span>
+                </div>
+                <div class="border"></div>
+            </div>
+
+            <div class="question2">
+                <span id= "q10"> 10. 바깥 풍경을 보면서 나는 </span>
+                <div class="button-group">
+                    <span><button type="button" value="19" id="space" class="rd19">생각 없이 그냥 쳐다본다</button></span>
+                    <span><button type="button" value="20" id="space" class="rd20">온갖 생각이 들끓는다.</button></span>
+                </div>
+                <div class="border"></div>
+            </div>
+
+            <div class="move_btn">
+                <button type="button" id ="pre_page" onclick="js:pre_page()">pre</button>
+                <button type="button" id ="next_page2" onclick="js:next_page3()">Submit</button>
+            </div>
+        </div>
+
+    <div class="page_3">
+        <div id="result">결과</div>
+        <div id ="img_frame">
+        </div>
+        <div id="name">
+            
+        </div>
+        <div id="content">
+            
+        </div>
+        <div id="capital"></div>
+        <div id="map">
+
+        </div>
+        <div id="travel-site">
+            <a id="travel" target="_blank" href="">수도로 가는 비행기 보기!</a>
+        </div>
+        <div class="move_btn">
+            <button type="button" id ="next_page2" onclick="window.location.reload()">처음으로</button>
+        </div>
+        </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4AOrX_ckoSZ2teHQvdn-uHfKcDjCTp9Q&callback=initMap"></script>
+    <script src="./button_value.js"></script>
+    <script src="./20201651psb.js"></script>
+    <script src="./result.js"></script>
+    <script src="data.js"></script>
+    <script src="MapApi.js"></script>
+</body>
+</html>

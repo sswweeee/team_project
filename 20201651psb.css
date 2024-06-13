@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+#background::after {    
+    background-image: url('image/travel.jpg');
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#survey {
+    width: 40%;
+    height: 92vh; 
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px gray;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-clip: content-box;
+}
+
+.border {
+    border-top: 1px solid #444444;
+    margin: 5px;
+    width: 100%;
+    display: block;
+}
+
+#q {
+    margin: 5px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 35% 30px 35%;
+}
+
+#space {
+    margin-right: 30px;
+}
+
+.question {
+    font-size: 20px;
+    width: 100%;
+    height: 120px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question2 {
+    font-size: 20px;
+    width: 100%;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page_1 {
+    display: block;
+    font-family: 'NexonMaplestory';
+}
+
+.page_2 {
+    display: none;
+    font-family: 'NexonMaplestory';
+}
+
+.page_3 {
+    display : none;
+    font-family: 'NexonMaplestory';
+}
+
+button {
+    background-color: #1E3A8A;
+    color: white;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'NexonMaplestory';
+}
+
+button:hover {
+    background-color: #3b82f6;
+}
+
+.move_btn {
+    margin: 10px;
+    margin-left: -2%;
+    width: 100%;
+    height: 10%;
+}
+
+#next_page {
+    text-align: center;
+    width: 35%;
+    height: 55%;
+}
+
+.survey-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #765285; 
+    z-index: -1;
+    border-radius: 15px;
+}
+
+#next_page2 {
+    text-align: center;
+    width: 35%;
+    height: 65%;
+}
+
+#pre_page {
+    text-align: center;
+    width: 35%;
+    height: 65%;
+}
+
+#result {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#img_frame{
+    border: 1px solid #444444;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+#content {
+    border: 1px solid #444444;
+    width: 400px;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+#map {
+    border: 1px solid #444444;
+    width: 400px;
+    height: 200px;
+}
+
+#name {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.img-result {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#travel-site {
+    right: 300px;
+}
